@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.app-container {
+  min-height: 100%;
+  background-image: url("./assets/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 800px;
+  margin: 0 auto 30px auto;
+  border: 1px solid gray;
+}
+
+.entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+input {
+  border: 1px solid grey;
+  font-size: 15px;
+  height: 25px;
+  border-radius: 5%;
+  margin-right: 5px;
+}
+
+.planTrip-button {
+  height: 25px;
+  margin-left: 5px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+
+.day-card {
+  padding: 40px;
+  margin-bottom: 10px;
+  width: 700px;
+}
+
+.weather {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.load {
+  font-size: 1.2em;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.routes {
+  padding: "50px";
+  border-radius: "6px";
+  margin: 10px 0;
+  font-size: "14px";
+}
+
+.route-row {
+  margin: 10px 0;
+  padding-left: 25px;
+}
+
+li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 10px;
+}
+
+.budget-card {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.budget-row {
+  margin: 10px 0;
+  padding-left: 25px;
+}
+
+.budget-total {
+  font-weight: bold;
+  margin-top: 15px;
+}
